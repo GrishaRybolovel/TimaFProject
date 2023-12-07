@@ -1,0 +1,263 @@
+ProgramContext
+|-ElementContext
+- |-SpecialFormContext
+- - |-SetqContext
+- - - |-TerminalNodeImpl: (
+- - - |-TerminalNodeImpl: setq
+- - - |-IdentifierContext
+- - - - |-TerminalNodeImpl: l
+- - - |-ElementContext
+- - - - |-LiteralContext
+- - - - - |-TerminalNodeImpl: 2
+- - - |-TerminalNodeImpl: )
+|-ElementContext
+- |-SpecialFormContext
+- - |-FuncContext
+- - - |-TerminalNodeImpl: (
+- - - |-TerminalNodeImpl: func
+- - - |-IdentifierContext
+- - - - |-TerminalNodeImpl: factorial
+- - - |-TerminalNodeImpl: (
+- - - |-IdentifierListContext
+- - - - |-IdentifierContext
+- - - - - |-TerminalNodeImpl: n
+- - - |-TerminalNodeImpl: )
+- - - |-ElementContext
+- - - - |-SpecialFormContext
+- - - - - |-CondContext
+- - - - - - |-TerminalNodeImpl: (
+- - - - - - |-TerminalNodeImpl: cond
+- - - - - - |-ElementContext
+- - - - - - - |-ExpressionContext
+- - - - - - - - |-ComparisonExpressionContext
+- - - - - - - - - |-TerminalNodeImpl: (
+- - - - - - - - - |-ComparisonOperatorContext
+- - - - - - - - - - |-TerminalNodeImpl: less
+- - - - - - - - - |-AtomContext
+- - - - - - - - - - |-IdentifierContext
+- - - - - - - - - - - |-TerminalNodeImpl: n
+- - - - - - - - - |-AtomContext
+- - - - - - - - - - |-IdentifierContext
+- - - - - - - - - - - |-TerminalNodeImpl: l
+- - - - - - - - - |-TerminalNodeImpl: )
+- - - - - - |-ElementContext
+- - - - - - - |-LiteralContext
+- - - - - - - - |-TerminalNodeImpl: 1
+- - - - - - |-ElementContext
+- - - - - - - |-ListContext
+- - - - - - - - |-TerminalNodeImpl: (
+- - - - - - - - |-ElementContext
+- - - - - - - - - |-ExpressionContext
+- - - - - - - - - - |-MultiplicativeExpressionContext
+- - - - - - - - - - - |-TerminalNodeImpl: *
+- - - - - - - - - - - |-ElementContext
+- - - - - - - - - - - - |-AtomContext
+- - - - - - - - - - - - - |-IdentifierContext
+- - - - - - - - - - - - - - |-TerminalNodeImpl: n
+- - - - - - - - - - - |-ElementContext
+- - - - - - - - - - - - |-FuncCallContext
+- - - - - - - - - - - - - |-TerminalNodeImpl: (
+- - - - - - - - - - - - - |-IdentifierContext
+- - - - - - - - - - - - - - |-TerminalNodeImpl: factorial
+- - - - - - - - - - - - - |-TerminalNodeImpl: (
+- - - - - - - - - - - - - |-ArgumentListContext
+- - - - - - - - - - - - - - |-ElementContext
+- - - - - - - - - - - - - - - |-ListContext
+- - - - - - - - - - - - - - - - |-TerminalNodeImpl: (
+- - - - - - - - - - - - - - - - |-ElementContext
+- - - - - - - - - - - - - - - - - |-ExpressionContext
+- - - - - - - - - - - - - - - - - - |-AdditiveExpressionContext
+- - - - - - - - - - - - - - - - - - - |-TerminalNodeImpl: -
+- - - - - - - - - - - - - - - - - - - |-ElementContext
+- - - - - - - - - - - - - - - - - - - - |-AtomContext
+- - - - - - - - - - - - - - - - - - - - - |-IdentifierContext
+- - - - - - - - - - - - - - - - - - - - - - |-TerminalNodeImpl: n
+- - - - - - - - - - - - - - - - - - - |-ElementContext
+- - - - - - - - - - - - - - - - - - - - |-LiteralContext
+- - - - - - - - - - - - - - - - - - - - - |-TerminalNodeImpl: 1
+- - - - - - - - - - - - - - - - |-TerminalNodeImpl: )
+- - - - - - - - - - - - - |-TerminalNodeImpl: )
+- - - - - - - - - - - - - |-TerminalNodeImpl: )
+- - - - - - - - |-TerminalNodeImpl: )
+- - - - - - |-TerminalNodeImpl: )
+- - - |-TerminalNodeImpl: )
+|-ElementContext
+- |-SpecialFormContext
+- - |-SetqContext
+- - - |-TerminalNodeImpl: (
+- - - |-TerminalNodeImpl: setq
+- - - |-IdentifierContext
+- - - - |-TerminalNodeImpl: n
+- - - |-ElementContext
+- - - - |-LiteralContext
+- - - - - |-TerminalNodeImpl: 5
+- - - |-TerminalNodeImpl: )
+|-ElementContext
+- |-FuncCallContext
+- - |-TerminalNodeImpl: (
+- - |-IdentifierContext
+- - - |-TerminalNodeImpl: factorial
+- - |-TerminalNodeImpl: (
+- - |-ArgumentListContext
+- - - |-ElementContext
+- - - - |-AtomContext
+- - - - - |-IdentifierContext
+- - - - - - |-TerminalNodeImpl: n
+- - |-TerminalNodeImpl: )
+- - |-TerminalNodeImpl: )
+|-ElementContext
+- |-SpecialFormContext
+- - |-LambdaCallContext
+- - - |-TerminalNodeImpl: (
+- - - |-LambdaContext
+- - - - |-TerminalNodeImpl: (
+- - - - |-TerminalNodeImpl: lambda
+- - - - |-TerminalNodeImpl: (
+- - - - |-IdentifierListContext
+- - - - - |-IdentifierContext
+- - - - - - |-TerminalNodeImpl: x
+- - - - |-TerminalNodeImpl: )
+- - - - |-ElementContext
+- - - - - |-SpecialFormContext
+- - - - - - |-CondContext
+- - - - - - - |-TerminalNodeImpl: (
+- - - - - - - |-TerminalNodeImpl: cond
+- - - - - - - |-ElementContext
+- - - - - - - - |-ExpressionContext
+- - - - - - - - - |-ComparisonExpressionContext
+- - - - - - - - - - |-TerminalNodeImpl: (
+- - - - - - - - - - |-ComparisonOperatorContext
+- - - - - - - - - - - |-TerminalNodeImpl: less
+- - - - - - - - - - |-AtomContext
+- - - - - - - - - - - |-IdentifierContext
+- - - - - - - - - - - - |-TerminalNodeImpl: x
+- - - - - - - - - - |-LiteralContext
+- - - - - - - - - - - |-TerminalNodeImpl: 2
+- - - - - - - - - - |-TerminalNodeImpl: )
+- - - - - - - |-ElementContext
+- - - - - - - - |-LiteralContext
+- - - - - - - - - |-TerminalNodeImpl: 1
+- - - - - - - |-ElementContext
+- - - - - - - - |-ListContext
+- - - - - - - - - |-TerminalNodeImpl: (
+- - - - - - - - - |-ElementContext
+- - - - - - - - - - |-ExpressionContext
+- - - - - - - - - - - |-MultiplicativeExpressionContext
+- - - - - - - - - - - - |-TerminalNodeImpl: *
+- - - - - - - - - - - - |-ElementContext
+- - - - - - - - - - - - - |-AtomContext
+- - - - - - - - - - - - - - |-IdentifierContext
+- - - - - - - - - - - - - - - |-TerminalNodeImpl: x
+- - - - - - - - - - - - |-ElementContext
+- - - - - - - - - - - - - |-FuncCallContext
+- - - - - - - - - - - - - - |-TerminalNodeImpl: (
+- - - - - - - - - - - - - - |-IdentifierContext
+- - - - - - - - - - - - - - - |-TerminalNodeImpl: factorial
+- - - - - - - - - - - - - - |-TerminalNodeImpl: (
+- - - - - - - - - - - - - - |-ArgumentListContext
+- - - - - - - - - - - - - - - |-ElementContext
+- - - - - - - - - - - - - - - - |-ListContext
+- - - - - - - - - - - - - - - - - |-TerminalNodeImpl: (
+- - - - - - - - - - - - - - - - - |-ElementContext
+- - - - - - - - - - - - - - - - - - |-ExpressionContext
+- - - - - - - - - - - - - - - - - - - |-AdditiveExpressionContext
+- - - - - - - - - - - - - - - - - - - - |-TerminalNodeImpl: -
+- - - - - - - - - - - - - - - - - - - - |-ElementContext
+- - - - - - - - - - - - - - - - - - - - - |-AtomContext
+- - - - - - - - - - - - - - - - - - - - - - |-IdentifierContext
+- - - - - - - - - - - - - - - - - - - - - - - |-TerminalNodeImpl: x
+- - - - - - - - - - - - - - - - - - - - |-ElementContext
+- - - - - - - - - - - - - - - - - - - - - |-LiteralContext
+- - - - - - - - - - - - - - - - - - - - - - |-TerminalNodeImpl: 1
+- - - - - - - - - - - - - - - - - |-TerminalNodeImpl: )
+- - - - - - - - - - - - - - |-TerminalNodeImpl: )
+- - - - - - - - - - - - - - |-TerminalNodeImpl: )
+- - - - - - - - - |-TerminalNodeImpl: )
+- - - - - - - |-TerminalNodeImpl: )
+- - - - |-TerminalNodeImpl: )
+- - - |-TerminalNodeImpl: (
+- - - |-ArgumentListContext
+- - - - |-ElementContext
+- - - - - |-LiteralContext
+- - - - - - |-TerminalNodeImpl: 3
+- - - |-TerminalNodeImpl: )
+- - - |-TerminalNodeImpl: )
+|-ElementContext
+- |-SpecialFormContext
+- - |-SetqContext
+- - - |-TerminalNodeImpl: (
+- - - |-TerminalNodeImpl: setq
+- - - |-IdentifierContext
+- - - - |-TerminalNodeImpl: facn
+- - - |-ElementContext
+- - - - |-SpecialFormContext
+- - - - - |-QuoteContext
+- - - - - - |-TerminalNodeImpl: '
+- - - - - - |-ElementContext
+- - - - - - - |-FuncCallContext
+- - - - - - - - |-TerminalNodeImpl: (
+- - - - - - - - |-IdentifierContext
+- - - - - - - - - |-TerminalNodeImpl: factorial
+- - - - - - - - |-TerminalNodeImpl: (
+- - - - - - - - |-ArgumentListContext
+- - - - - - - - - |-ElementContext
+- - - - - - - - - - |-LiteralContext
+- - - - - - - - - - - |-TerminalNodeImpl: 4
+- - - - - - - - |-TerminalNodeImpl: )
+- - - - - - - - |-TerminalNodeImpl: )
+- - - |-TerminalNodeImpl: )
+|-ElementContext
+- |-SpecialFormContext
+- - |-EvalCallNamedContext
+- - - |-TerminalNodeImpl: (
+- - - |-TerminalNodeImpl: eval
+- - - |-IdentifierContext
+- - - - |-TerminalNodeImpl: facn
+- - - |-TerminalNodeImpl: )
+|-ElementContext
+- |-SpecialFormContext
+- - |-SetqContext
+- - - |-TerminalNodeImpl: (
+- - - |-TerminalNodeImpl: setq
+- - - |-IdentifierContext
+- - - - |-TerminalNodeImpl: myFunc
+- - - |-ElementContext
+- - - - |-SpecialFormContext
+- - - - - |-LambdaContext
+- - - - - - |-TerminalNodeImpl: (
+- - - - - - |-TerminalNodeImpl: lambda
+- - - - - - |-TerminalNodeImpl: (
+- - - - - - |-IdentifierListContext
+- - - - - - - |-IdentifierContext
+- - - - - - - - |-TerminalNodeImpl: y
+- - - - - - |-TerminalNodeImpl: )
+- - - - - - |-ElementContext
+- - - - - - - |-ListContext
+- - - - - - - - |-TerminalNodeImpl: (
+- - - - - - - - |-ElementContext
+- - - - - - - - - |-ExpressionContext
+- - - - - - - - - - |-MultiplicativeExpressionContext
+- - - - - - - - - - - |-TerminalNodeImpl: *
+- - - - - - - - - - - |-ElementContext
+- - - - - - - - - - - - |-LiteralContext
+- - - - - - - - - - - - - |-TerminalNodeImpl: 2
+- - - - - - - - - - - |-ElementContext
+- - - - - - - - - - - - |-AtomContext
+- - - - - - - - - - - - - |-IdentifierContext
+- - - - - - - - - - - - - - |-TerminalNodeImpl: y
+- - - - - - - - |-TerminalNodeImpl: )
+- - - - - - |-TerminalNodeImpl: )
+- - - |-TerminalNodeImpl: )
+|-ElementContext
+- |-FuncCallContext
+- - |-TerminalNodeImpl: (
+- - |-IdentifierContext
+- - - |-TerminalNodeImpl: myFunc
+- - |-TerminalNodeImpl: (
+- - |-ArgumentListContext
+- - - |-ElementContext
+- - - - |-LiteralContext
+- - - - - |-TerminalNodeImpl: 4
+- - |-TerminalNodeImpl: )
+- - |-TerminalNodeImpl: )
+|-TerminalNodeImpl: <EOF>
